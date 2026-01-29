@@ -1,29 +1,29 @@
-ase 1: First time – new repo me file push karna
-📁 Step 1: Project folder me jao
+Case 1: First time – file push to new repo
+📁 Step 1: Open the Project Folder
 
     cd /path/to/your/project
 
-🧾 Step 2: Git initialize karo
+🧾 Step 2: Now Git initialize
     
     git init
 
-📄 Step 3: File add / create karo
+📄 Step 3: File add / create
 
     nano file.txt
-(ya koi bhi file)
+(or any file)
 
-➕ Step 4: File staging me add karo
+➕ Step 4: Add to File staging
 
     git add file.txt
-Ya sab files:
+Or all files:
 
     git add .
-📝 Step 5: Commit karo
+📝 Step 5: Next Commit
 
     git commit -m "Initial commit"
 
-🔗 Step 6: GitHub repo ko connect karo
-(GitHub pe empty repo bana ke URL copy karo)
+🔗 Step 6: Now connect to GitHub repo
+( Create a empty repo and copy the URL )
 
     git remote add origin https://github.com/Mwagh5022/devops-linux.git
 Check:
@@ -33,9 +33,9 @@ Check:
 
     git branch -M project
     git push -u origin project
-➡️ GitHub username + Personal Access Token (PAT) poochega (password nahi).
+➡️ GitHub username + Personal Access Token (PAT) (not password).
 
-🔹 **Case 2: Existing repo me new file push karna**
+🔹 **Case 2: Push New file to Existing repo**
     
     git status
     git add newfile.txt
@@ -43,7 +43,7 @@ Check:
     git push
 
 🔹 Authentication (IMPORTANT – GitHub 2025)
-❌ Password allowed nahi
+❌ Password not allowed 
 ✅ Use Personal Access Token (PAT)
 
 GitHub →
